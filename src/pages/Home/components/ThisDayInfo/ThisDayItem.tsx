@@ -7,7 +7,7 @@ interface Props {
    item: Item; 
 }
 
-const ThisDayItem = ({item}: Props) => {
+export const ThisDayItem = ({item}: Props) => {
  const {icon_id, name, value} = item;
     return (
         <div className={s.item}>
@@ -20,4 +20,4 @@ const ThisDayItem = ({item}: Props) => {
     );
 };
 
-export default ThisDayItem
+

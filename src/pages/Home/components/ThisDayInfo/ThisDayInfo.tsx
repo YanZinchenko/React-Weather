@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './ThisDayInfo.module.scss';
 import cloud from '../../../../assets/images/cloud.png';
-import ThisDayItem from './ThisDayItem';
+import { ThisDayItem } from './ThisDayItem';
 
 interface Props {   }
 
